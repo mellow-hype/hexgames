@@ -14,7 +14,7 @@ fn level_one() {
 
     // main game loop
     loop {
-        println!("DEBUG: answer is {}", selection);
+        // println!("DEBUG: answer is {}", selection);
         println!("Current score: {}\n", player_score);
         println!("What is 0x{:x} in decimal? ", selection);
 
@@ -64,7 +64,7 @@ fn level_two() {
 
     // main game loop
     loop {
-        println!("DEBUG: answer is {}", answer);
+        // println!("DEBUG: answer is {}", answer);
         println!("Current score: {}\n", player_score);
         println!("What is 0x{:x} + 0x{:x} in decimal? ", num1, num2);
 
